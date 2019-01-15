@@ -28,11 +28,16 @@
 		}).then(function(result){
 			console.log("最終的資料", result);
 			list.innerHTML = "";
+			let product;
+			let sum = 0;
 			for(let i = 0; i < result.length; i++){
-				let product = result[i];
+				product = result[i];
+				sum +=product.price;
 				list.innerHTML += "名稱:" + product.name.bold() + " - 價錢: " + product.price + " <hr/>"
 			}
 			
+			let avg = sum / result.length;
+			list.innerHTML += "平均售價 : "  + avg;
 		})
 	
 	</script>
