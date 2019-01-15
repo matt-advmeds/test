@@ -1,18 +1,18 @@
 [
   {
     "name":"iphone SE"
-    "price": 12000
+    "price":"12000"
   },
   {
     "name":"macbook Air"
-    "price": 32000
+    "price":"32000"
   },
   {
     "name":"playstation 4"
-    "price": 9000
+    "price":"9000"
   },
   {
     "name":"Nintendo Switch"
-    "price": 9800
+    "price":"9800"
   }
 ]
